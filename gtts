@@ -1,0 +1,8 @@
+from gtts import gTTS
+import os
+
+mesaj="beete öğrenme nokta com sitesine hoşgeldiniz. "
+dil="tr"
+tts = gTTS(text=mesaj,lang=dil,slow=True)
+tts.save('hello.mp3')
+dosya_adi="hello.mp3"
